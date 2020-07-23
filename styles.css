@@ -1,0 +1,163 @@
+
+body {
+  background-color: #FFECCC;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+#nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#header-img {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.container {
+  height: 450px;
+  width: 100%;
+  background-color: #CD5162;
+  display: flex;
+  padding: 60px 0 0 50px;
+  margin-top: 40px;
+}
+
+.text-logo {
+  margin: 10px;
+  padding-left: 60px;
+}
+
+.text-logo h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+#form {
+  margin-top: 30px;
+}
+
+#submit {
+  background-color: #FFECCC;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 10px;
+}
+
+submit:hover {
+  background-color: #F2D0A4;
+  color: white;
+}
+
+/* Middle container section */
+
+.middle-container h2 {
+  background-color: #F2D0A4;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px;
+}
+
+.video {
+  text-align: center;
+  padding: 10px 10px 10px 30px;
+}
+
+.book-fair-video {
+  display: flex;
+}
+
+.book-fair-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-top: 0px;
+  padding-left: 30px;
+}
+
+.text h3 {
+  margin-top: 10px;
+}
+
+/* Books section */
+.books-sales h2 {
+  background-color: #F2D0A4;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.flex-container img {
+  border-radius: 2%;
+  height: 250px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.flex-container a {
+  color: #CD5162;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Footer section */
+.bottom-container {
+  background-color: #CD5162;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .flex-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flex-container a {
+    display: block;
+  }
+}
